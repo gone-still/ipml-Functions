@@ -12,8 +12,6 @@
 
 #include <opencv2/opencv.hpp>
 
-float computeCompactness( float perimeter, float area );
-float getExtraProperties(const std::string& pointerFunction, float arg1, float arg2);
 float vectorNorm( std::vector<float>& inVector, int mode = 0);
 std::vector<float> normalizeVector( std::vector<float>& inVector, int mode = 0 );
 float weightedEuclideanDistance( std::vector<float>& referenceVector, std::vector<float>& estimatedVector, std::vector<float>& weightsVector );
