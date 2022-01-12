@@ -1,2 +1,2 @@
 # ipml-Functions
-Auxiliary image processing and machine learning functions
+Auxiliary image processing (ip) and machine learning (ml) functions written in C++.
